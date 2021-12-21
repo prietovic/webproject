@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('suma/<a>+<b>', testapp.views.suma),
     path('suma_post/', testapp.views.suma_post),
+    path('gallery', testapp.views.gallery),
+    path('gallery/<photo>', testapp.views.gallery_photo),
 ]
